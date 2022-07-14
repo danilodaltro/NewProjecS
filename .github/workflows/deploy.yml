@@ -35,6 +35,6 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PROJETOS_EC2_SSH_KEY }}
           SOURCE: "bin/Release/net6.0/publish/"
-          REMOTE_HOST: "ip-172-31-87-169.ec2.internal"
+          REMOTE_HOST: "ec2-3-229-74-68.compute-1.amazonaws.com"
           REMOTE_USER: "ubuntu"
           TARGET: "/home/ubuntu/deploy/projetoS"
