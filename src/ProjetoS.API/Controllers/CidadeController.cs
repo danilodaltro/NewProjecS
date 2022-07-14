@@ -11,7 +11,6 @@ namespace ProjetoS.API.Controllers
     public class CidadeController : BaseController
     {
         private readonly ICidadeService _service;
-        private readonly IPessoaService _pessoaService;
 
         public CidadeController(ILogger<PessoaController> logger, ICidadeService service) : base()
         {
